@@ -1,5 +1,5 @@
-# gaode_spider
-# 爬取高德地图poi的爬虫
+
+# 爬取高德地图全国poi的爬虫
 ---
 ## 基于python3.6的爬取高德全国poi数据的爬虫,稳定性更高,爬取效率更快,由于高德poi的数据量比较大，这里使用了mongodb和Elasticsearch作为存储，只需要修改key值和types种类即可,每个种类都是遍历全国的抓取.
 
