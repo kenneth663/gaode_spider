@@ -18,7 +18,7 @@
    pip install requests
    pip install elasticsearch==5.1.0
    pip install elasticsearch-dsl==5.1.0
-   pip install mongodb
+   pip install pymongo
    ```
 
 ## 实际运行图
