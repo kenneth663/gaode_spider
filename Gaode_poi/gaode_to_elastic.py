@@ -54,7 +54,7 @@ def get_data(page_index, url_amap):
             es_poi.save()
     else:
         pass
-    return poi_json["pois"]
+    return poi_json.get("pois")
 
 
 def getPOIdata(page_size, url_amap):
