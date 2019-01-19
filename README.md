@@ -15,7 +15,7 @@
 ---
 ##  所需库
    ```
-   elasticsearch 5.1.1
+   Elasticsearch 5.1.1
    pip install requests
    pip install elasticsearch==5.1.0
    pip install elasticsearch-dsl==5.1.0
