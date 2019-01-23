@@ -13,7 +13,7 @@ def get_data(page_index, url_amap):
     poi_json = response.json()
 
     if total_record == 0:
-        total_record = int(poi_json.get('count'))
+        total_record = int(poi_json.get('count', 0))
     poi_lists = poi_json.get("pois")
     if poi_lists != None or '':
         for poi in poi_lists:
